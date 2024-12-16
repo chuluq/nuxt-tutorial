@@ -1,3 +1,8 @@
+<script setup lang="ts">
+const { sayHello } = useUtils();
+sayHello();
+</script>
+
 <template>
   <div>
     <Alert />
